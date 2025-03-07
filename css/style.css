@@ -36,6 +36,19 @@ header {
     border: 1px solid #aaa;
     border-radius: 8px;
 }
+.descriptionpage {
+    font-size: 15px;
+    color: #333;
+    margin: 10px;
+    margin-top: 95px;
+    margin-bottom: 12px;
+    padding: 10px;
+    text-align: left;
+    width: 90%;
+    max-width: 1000px;
+    border: 1px solid #aaa;
+    border-radius: 8px;
+}
 .container {
     background: white;
     padding: 25px;
