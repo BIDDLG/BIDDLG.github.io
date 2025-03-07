@@ -150,14 +150,15 @@ img {
     color: #333;
     margin: 10px;
     margin-top: 90px;
-    margin-bottom: 50px;
+    margin-bottom: 60px;
     padding: 10px;
     text-align: left;
     width: 90%;
     max-width: 1000px;
 }
 .pages h3 {
-    margin-top: 10px;
+    margin-top: 15px;
+    margin-bottom: 10px;
 }
 footer {
     width: 100%;
