@@ -145,6 +145,17 @@ img {
     border: 1px solid #aaa;
     border-radius: 8px;
 }
+.pages {
+    font-size: 15px;
+    color: #333;
+    margin: 10px;
+    margin-top: 100px;
+    margin-bottom: 18px;
+    padding: 10px;
+    text-align: left;
+    width: 90%;
+    max-width: 1000px;
+}
 footer {
     width: 100%;
     background: darkgreen;
