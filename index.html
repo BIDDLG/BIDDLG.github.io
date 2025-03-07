@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+  
+    <!-- Primary Meta Tags -->
+    <title>Blogger Image Direct Download Link Generator</title>
+  
+    <meta name="description" content="Easily convert Blogger image URLs into direct download links. Simple, fast, and efficient tool for bloggers.">
+  
+    <meta name="keywords" content="Blogger Image Direct Download, Blogger Image Link Converter, Blogger Image Downloader, Blogger Image to Direct Link, Blogger Photo Direct Download, Convert Blogger Image URL, Blogger Image Download Tool, Blogger Image URL Generator, Blogger Image Direct Link Maker, Blogger Image Sharer, Blogger Image to Direct Download, Free Blogger Image Converter, Blogger Image Download Service, Blogger Image Link Shortener, Blogger Image URL Extractor, Blogger Image SEO Tool, Blogger Image Optimization, Blogger Photo Link Extractor, Blogger Image Hosting Tool, Fast Blogger Image Download, Blogger Image to PNG Converter, Blogger Photo to Direct Link, Direct Download Blogger Photos, Blogger Image Generator, Blogger Image Processing Tool, Blogger Image Hosting Service, Blogger Image Resize and Download, Blogger Image Shareable Link, Blogger Image Direct Link Software, Blogger Image to JPG Converter, Blogger Image Auto Downloader, Blogger Image Downloader Online, Blogger Image to Direct Link API, Blogger Image Tool for SEO, Blogger Image Hosting and Download, Blogger Image Extractor Online, Blogger Image to Shareable URL, Blogger Image File Converter, Blogger Image to File Download, Blogger Image Download Software, Blogger Image URL Shortener Tool, Blogger Image to Full Resolution Download, Blogger Image Compression and Download, Blogger Image Link Maker, Blogger Image to Direct Share, Blogger Image Download Without Watermark, Blogger Image to Google Drive Link, Blogger Image URL Parser">
+  
+    <meta name="author" content="Royal Krrishna">
+
+<!-- Open Graph / Facebook -->
+    <meta property="og:title" content="Blogger Image Direct Download Link Generator">
+    <meta property="og:description" content="Easily convert Blogger image URLs into direct download links. Simple, fast, and efficient tool for bloggers.">
+    <meta property="og:image" content="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh_J7fktMT1swYGovjmSUphZJFLV4mPtFjn8fi_sMfM9E6C_u43aUyknvvfC0t3B4PgxewEdJLiB-UxlhNqhVxVz3-MJvLN8TVYWipdQiFjRiJ6i1CUNsdgSN2NIFkMahZQc9qheTvMyT0tvPp3mnLYILHq6r6_XRax2H9hilagoHB0ZT2k59898Bmv7KI/s1280/1000084759.jpg">
+    <meta property="og:url" content="https://biddlg.github.io/">
+    <meta property="og:type" content="website">
+
+<!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Blogger Image Direct Download Link Generator">
+    <meta name="twitter:description" content="Easily convert Blogger image URLs into direct download links.">
+    <meta name="twitter:image" content="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh_J7fktMT1swYGovjmSUphZJFLV4mPtFjn8fi_sMfM9E6C_u43aUyknvvfC0t3B4PgxewEdJLiB-UxlhNqhVxVz3-MJvLN8TVYWipdQiFjRiJ6i1CUNsdgSN2NIFkMahZQc9qheTvMyT0tvPp3mnLYILHq6r6_XRax2H9hilagoHB0ZT2k59898Bmv7KI/s1280/1000084759.jpg">
+    <meta name="twitter:site" content="@royalkrrishna">
+
+<!-- Robots Meta Tag -->
+    <meta name="robots" content="index, follow">
+
+<!-- Canonical URL -->
+    <link expr:href='data:blog.url' rel='canonical'/>
+  
+<!-- ✅ Favicon (Browser Tab Icon) -->
+    <link rel="icon" type="image/jpg" href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEifgf3dmiPnrwtqhoPOXQMnVi1R2MeI7GUFVhr6d0vnOMv745L3dXz06Ubz7J_56lAWTDRIm-6s756sSHo66Sde6PtwjGHnnBuZine9ATt5V2yG-EwDfeA8Npho1JO5l5aDqav0KGjVaS2NMmqoobSgPiJOjr7QaHcaNHGQzPqw7R8_9kCqPDe2taTJtKs/s1280/1000084758.jpg">
+    <link href="https://fonts.googleapis.com/css2?family=Arya:wght@400;700&amp;display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body { 
+            font-family: Arial, sans-serif; 
+            font-style: italic;
+            text-align: center; 
+            background: linear-gradient(135deg, #ffffff, #ddd);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            min-height: 100vh;
+        }
+        header {
+            width: 100%;
+            background: darkgreen;
+            color: white;
+            padding: 15px 25px;
+            font-size: 13px;
+            font-weight: bold;
+            text-align: center;
+            position: fixed;
+        }
+        .description {
+            font-size: 15px;
+            color: #333;
+            margin: 10px;
+            margin-top: 95px;
+            margin-bottom: 12px;
+            padding: 10px;
+            text-align: left;
+            width: 90%;
+            max-width: 1000px;
+            border: 1px solid #aaa;
+            border-radius: 8px;
+        }
+        /*.description2 {
+            font-size: 15px;
+            color: #333;
+            margin: 10px;
+            margin-top: 10px;
+            margin-bottom: 55px;
+            padding: 10px;
+            text-align: left;
+            width: 90%;
+            max-width: 600px;
+            border: 1px solid #aaa;
+            border-radius: 8px;
+        }*/
+        .container {
+            background: white;
+            padding: 25px;
+            width: 90%;
+            max-width: 1000px;
+            border-radius: 8px;
+            box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            margin: 2px 10px;
+        }
+        h2 { 
+            color: #333; 
+            font-size: 22px;
+            margin-bottom: 15px;
+        }
+        input { 
+            padding: 12px;
+            font-style: italic;
+            width: 100%; 
+            border: 1px solid #aaa;
+            border-radius: 8px;
+            font-size: 16px;
+            transition: 0.3s ease;
+        }
+        input:focus {
+            border-color: darkgreen;
+            outline: none;
+            box-shadow: 0 0 5px green;
+        }
+        button { 
+            padding: 12px 20px; 
+            width: 100%; 
+            border: none;
+            border-radius: 8px;
+            background-color: #FFC94F; 
+            font-size: 18px; 
+            font-style: italic;
+            font-weight: bold; 
+            color: black;
+            transition: 0.3s ease; 
+            cursor: none;
+            margin-top: 15px;
+            box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
+        }
+        button:hover { 
+            background-color: darkgreen; 
+            transform: scale(1.05);
+            color: white;
+            box-shadow: 0px 7px 15px rgba(0, 0, 0, 0.2);
+        }
+        .tutorial {
+            width: 90%;
+            max-width: 1000px;
+            font-size: 15px;
+            color: #444;
+            margin: 20px auto;
+            margin-bottom: 5px;
+            text-align: left;
+            padding: 15px;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
+            line-height: 1.6;
+        }
+        .tutorial h3 {
+            font-size: 20px;
+            margin-bottom: 10px;
+            color: #222;
+        }
+        .tutorial ol {
+            padding-left: 20px;
+        }
+        .tutorial li {
+            margin-bottom: 10px;
+        }
+      
+      .tutorial1 {
+            width: 90%;
+            max-width: 1000px;
+            font-size: 15px;
+            color: #444;
+            margin: 20px auto;
+            margin-bottom: 85px;
+            text-align: left;
+            padding: 15px;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
+            line-height: 1.6;
+        }
+        .tutorial1 h3 {
+            font-size: 20px;
+            margin-bottom: 10px;
+            color: #222;
+        }
+        .tutorial1 ol {
+            padding-left: 20px;
+        }
+        .tutorial1 li {
+            margin-bottom: 10px;
+      }
+      img {
+            width: 100%;
+            max-width: 1000px;
+            align-items: center;
+            margin: auto;
+            margin-top: 25px;
+            border: 1px solid #aaa;
+            border-radius: 8px;
+      }
+        footer {
+            width: 100%;
+            background: darkgreen;
+            color: white;
+            text-align: center;
+            font-weight: bold;
+            padding: 12px 50px;
+            font-size: 12px;
+            margin-top: auto;
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            z-index: 1000;
+        }
+       .footer-container a {
+        color: white;
+        text-decoration: none;
+        cursor: none;
+        transition: 0.3s;
+    }
+
+    .footer-container a:hover {
+        color: darkyellow;
+    }
+      
+      .footer-links {
+        margin-bottom: 10px; /* Copyright और Links के बीच Gap */
+    }
+
+    .footer-links a {
+        color: white;
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 14px;
+        transition: 0.3s;
+        margin: 5px;
+    }
+
+    .footer-links a:hover {
+        color: darkyellow;
+      }
+
+    @media (max-width: 1000px) {
+        .footer-container p {
+            font-size: 12px;
+        }
+      }
+        .fade-in {
+            animation: fadeIn 0.5s ease-in-out;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(-5px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+      <h1>BIDDLG</h1>
+      <span>Blogger Image Direct Download Link Generator</span>
+  </header>
+
+    <p class="description">
+        This Tool Helps You To Generate A Direct Download Link For Any Image From Blogger. Just Paste The URL And Press The Generate Link Button!
+    </p>
+
+    <div class="container">
+        <h2>Enter Blogger Image URL</h2>
+        <input type="text" id="inputUrl" placeholder="Paste Blogger Image URL...">
+        <button id="convertBtn" onclick="convertImage()">Generate Link</button>
+    </div>
+
+    <div class="tutorial">
+        <h3>How To Use?</h3>
+        <ol>
+            <li>Copy the Link of any Image from Blogger.</li>
+            <li>Paste it in the Box above.</li>
+          <li>Press the <b>Generate Link</b> Button</li>
+          <li>Click on <b>Copy Link</b> Button and copy the link.</li>
+            <li>Now this link is ready for direct image Download!</li>
+      </ol>
+  </div>
+      
+      <div class="tutorial1">
+        <h3>How To Use? Image Tutorial</h3>
+        
+          <img src="https://i.postimg.cc/90FJV4Pp/20250220-124430.jpg">
+          <p><strong>Step 1:</strong> Click on <b>Three Dot •••</b>.</p>
+          
+          <img src="https://i.postimg.cc/Y96L8kVB/20250220-124448.jpg">
+          <p><strong>Step 2:</strong> Click on upload <b>Image Icon</b>.</p>
+          
+          <img src="https://i.postimg.cc/YqpD6CVk/20250220-124505.jpg">
+          <p><strong>Step 3:</strong> Click on upload from <b>Computer Tab</b>.</p>
+          
+          <img src="https://i.postimg.cc/NGymWqHT/20250220-124528.jpg">
+          <p><strong>Step 4:</strong> After upload your image, again click on <b>Three Dot •••</b>.</p>
+          
+          <img src="https://i.postimg.cc/sfwf9vX4/20250220-124615.jpg">
+          <p><strong>Step 5:</strong> Click on <b>Link Icon</b>.</p>
+    
+          <img src="https://i.postimg.cc/TPpNSNqP/20250220-124720.jpg">
+            <p><strong>Step 6:</strong> Click and hold then <b>Copy This Link</b> and Paste it on <b>BIDDLG</b> and Click On <b>Generate Link</b> Button.</p>
+    
+      
+    </div>
+  
+  <p class="description2"> </p>
+
+    <footer>
+    <div class="footer-container">
+        <p class="footer-links">
+            <a href="#about-us">About Us</a>
+            <a href="#contact-us">Contact Us</a>
+            <a href="#privacy-policy">Privacy Policy</a>
+        </p>
+      
+        <p class="footer-copyright">Copyright © BIDDLG</p>
+    </div>
+  </footer>
+
+    <script>
+        function convertImage() {
+            let inputUrl = document.getElementById("inputUrl").value.trim();
+            let convertBtn = document.getElementById("convertBtn");
+            
+            if (!inputUrl.includes("blogger.googleusercontent.com")) {
+                return;
+            }
+
+            // Extract base URL before "/s" and get file name
+            let parts = inputUrl.split("/s");
+            let baseUrl = parts[0]; // Image base URL
+            let fileName = parts[1].split("/").pop(); // Extract file name
+
+            // Construct direct download link
+            let directLink = `${baseUrl}/s16000-d/${fileName}`;
+
+            // Change button to "Copy Link"
+            convertBtn.innerText = "Copy Link";
+            convertBtn.classList.add("fade-in");
+
+            // Update button click function to copy the link
+            convertBtn.onclick = function() { 
+                navigator.clipboard.writeText(directLink);
+            };
+        }
+    </script>
+
+</body>
+      </html>
