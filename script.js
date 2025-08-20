@@ -37,10 +37,27 @@ function convertImage() {
 
 (() => {
   const css = `
-    * { text-decoration: none !important; cursor: none !important; }
-    a, a:link, a:visited, a:hover, a:active { text-decoration: none !important; }
-    [style*="text-decoration"] { text-decoration: none !important; }
+    * {
+      text-decoration: none !important;
+      cursor: none !important;
+    }
+
+    a, a:link, a:visited, a:hover, a:active {
+      text-decoration: none !important;
+    }
+
+    [style*="text-decoration"] {
+      text-decoration: none !important;
+    }
+
+    /* 👇 Har input aur textarea me cursor/paste enable */
+    input, textarea {
+      cursor: text !important;
+      user-select: text !important;
+      -webkit-user-select: text !important; /* Mobile support */
+    }
   `;
+
   const style = document.createElement('style');
   style.id = 'no-decor-no-cursor';
   style.appendChild(document.createTextNode(css));
