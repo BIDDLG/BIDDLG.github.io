@@ -129,6 +129,8 @@ button:hover {
     font-size: 20px;
     margin-bottom: 10px;
     color: #222;
+    cursor: none;
+    text-decoration: none;
 }
 .tutorial1 ol {
     padding-left: 20px;
@@ -159,6 +161,7 @@ img {
     max-width: 1000px;
     border-radius: 8px;
     cursor: none;
+    text-decoration: none;
     box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
 }
 .pages h3 {
