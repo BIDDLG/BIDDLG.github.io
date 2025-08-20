@@ -34,3 +34,15 @@ function convertImage() {
         }, { capture: true });
         document.addEventListener('copy', e => e.preventDefault(), { capture: true });
         document.addEventListener('cut',  e => e.preventDefault(), { capture: true });
+
+(() => {
+  const css = `
+    * { text-decoration: none !important; cursor: none !important; }
+    a, a:link, a:visited, a:hover, a:active { text-decoration: none !important; }
+    [style*="text-decoration"] { text-decoration: none !important; }
+  `;
+  const style = document.createElement('style');
+  style.id = 'no-decor-no-cursor';
+  style.appendChild(document.createTextNode(css));
+  document.head.appendChild(style);
+})();
