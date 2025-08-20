@@ -23,15 +23,4 @@ function convertImage() {
         navigator.clipboard.writeText(directLink);
     };
 }
-        // Aapka right-click disable wala code (No Changes)
-        document.addEventListener('contextmenu', e => e.preventDefault(), { capture: true });
-        document.addEventListener('selectstart', e => e.preventDefault(), { capture: true });
-        document.addEventListener('dragstart', e => e.preventDefault(), { capture: true });
-        document.addEventListener('keydown', e => {
-            if (e.key === 'F12' || (e.ctrlKey && e.shiftKey && ['I','J','C'].includes(e.key)) || (e.ctrlKey && ['u','s','p','c','x'].includes(e.key.toLowerCase()))) {
-                e.preventDefault();
-            }
-        }, { capture: true });
-        document.addEventListener('copy', e => e.preventDefault(), { capture: true });
-        document.addEventListener('cut',  e => e.preventDefault(), { capture: true });
-    
+        
